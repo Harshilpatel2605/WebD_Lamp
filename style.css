@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #1d2026;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    position:static;
+}
+.imgmenu{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.imglogo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    flex: 1;
+}
+nav ul li {
+    color: white;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.mybuttons{
+    margin-left: 100px;
+}
+.lamp-container{
+    position: absolute;
+    top:-20px;
+    left: 22%;
+    width: 200px;
+
+}
+.lamp{
+    width: 100%;
+}
+.light{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    width: 700px;
+    margin-left: -10px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.text-container{
+    color: white;
+    margin-left: 50%;
+    margin-top: 13%
+}
+h1{
+    font-size: 60px;
+}
+p{
+    line-height: 25px;
+    margin-top: 5px;
+}
+.checkbtn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(38, 120, 75);
+    color: white;
+    font-size: 16px;
+}

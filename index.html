@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <img class="imgmenu" src="menu.png">
+            <img class="imglogo" src="logo.png"> 
+            <ul>
+                <li><a href="#"><b>Latest</b></a></li>
+                <li><a href="#"><b>Modern</b></a></li>
+                <li><a href="#"><b>Contemporary</b></a></li>
+                <li><a href="#"><b>Affordable</b></a></li>
+            </ul>
+        </nav>
+        <div class="mybuttons">
+        <button id="mybtn1" onclick="functionlighton()">ON</button>
+        <button id="mybtn2" onclick="functionlightoff()">OFF</button>
+        </div>
+        <div class="lamp-container">
+            <img src="lamp.png" class="lamp">
+            <img src="light.png" id="light" class="light">
+        </div>
+        <div class="text-container">
+            <h1>Latest <br>In Lighting</h1>
+            <p>This is the first lamp from our company. We're making a huge collection of <br> modern lamps in all categories from home use to office use.</p><br>
+            <button class="checkbtn">Check All Collections</button>
+        </div>
+    </div>
+    <script>
+        function functionlighton(){
+                document.getElementById("light").style.opacity = 1
+        }
+        function functionlightoff(){
+                document.getElementById("light").style.opacity = 0
+        }
+    </script>
+</body>
+</html>
